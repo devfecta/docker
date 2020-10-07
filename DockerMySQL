@@ -1,0 +1,5 @@
+FROM mysql:latest
+LABEL maintainer="devfecta@gmail.com"
+LABEL version="1.0"
+LABEL description="This is a MySQL server."
+ENV MYSQL_DATABASE devfecta

@@ -1,6 +1,3 @@
-FROM mysql:latest AS mysql-stage
-ENV MYSQL_DATABASE devfecta
-
 FROM debian:latest AS node-stage
 LABEL maintainer="devfecta@gmail.com"
 LABEL version="1.0"
