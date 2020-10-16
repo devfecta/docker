@@ -2,4 +2,6 @@ FROM mysql:latest
 LABEL maintainer="devfecta@gmail.com"
 LABEL version="1.0"
 LABEL description="This is a MySQL server."
+EXPOSE 3306
+## Creates a database name devfecta.
 ENV MYSQL_DATABASE devfecta
